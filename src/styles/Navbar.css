@@ -1,7 +1,7 @@
 .navbar {
   background: #6a1b9a;
   height: 60px;
-  padding-bottom: 30px;
+  
 }
 
 .navbar a {
@@ -9,6 +9,6 @@
   font-size: 1.3rem;
   text-decoration: none;
   margin: 5px;
-  line-height: 3;
+  line-height: -3;
   
 }

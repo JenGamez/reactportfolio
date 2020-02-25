@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/Navbar.css";
+import Pdf from "../pdf/resume.pdf";
 
 // By importing the Navbar.css file, it is added to the DOM whenever this component loads
 
@@ -22,6 +23,10 @@ function Navbar() {
   return (
     <nav style={styles.navbarStyle} className="navbar">
       <a href="/">About Me</a>
+      <a href = {Pdf}>Resume</a>
+      <a href="/">LinkedIn</a> 
+      <a href="/">GitHub</a>
+      <a href="/">Projects</a>
     </nav>
   );
 }
