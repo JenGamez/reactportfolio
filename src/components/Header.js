@@ -10,19 +10,20 @@ import "../styles/Header.css";
 
 const styles = {
   headerStyle: {
-    background: "red"
+    background: "white",
+  
   },
   headingStyle: {
-    fontSize: 100
+    fontSize: 50
   }
 };
 
-// We use JSX curly braces to evaluate the style object
+// We use JSX curly braces to evaluatxe the style object
 
 function Header() {
   return (
     <header style={styles.headerStyle} className="header">
-      <h1 style={styles.headingStyle}>Welcome</h1>
+      <h1 style={styles.headingStyle}>Jen Gamez</h1>
     </header>
   );
 }

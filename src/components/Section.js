@@ -10,7 +10,7 @@ import "../styles/Section.css";
 
 const styles = {
   sectionStyles: {
-    background: "orange"
+    background: "white"
   }
 };
 
