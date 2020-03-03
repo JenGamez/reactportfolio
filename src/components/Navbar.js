@@ -26,7 +26,7 @@ function Navbar() {
       <a href = {Pdf} target="_blank">Resume</a>
       <a href="https://www.linkedin.com/in/jen-gamez-a30b8b37/" target="_blank">LinkedIn</a> 
       <a href="https://github.com/JenGamez" target="_blank">GitHub</a>
-      <a href="/">Projects</a>
+      <a href="/" class="projects">Projects</a>
     </nav>
   );
 }

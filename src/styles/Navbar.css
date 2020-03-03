@@ -10,5 +10,10 @@
   text-decoration: none;
   margin: 5px;
   line-height: -3;
+  font-family: 'Montserrat', sans-serif;
   
+}
+
+.projects {
+  padding-right: 150px
 }
